@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #95d5b2; */
+  color: #6d6875;
+}
+
+#img1 {
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+  height: 178%;
+  margin-top: -7.5rem;
+  z-index: -1;
+}
+#h3p{
+  margin-top: 9%;
+}
+
+
+form {
+  text-align: center;
+}
+span{
+  margin-left: 1rem;
+}
+
+fieldset {
+  font-size: larger;
+  border-radius: 2rem 0 2rem 0;
+  width: 80%;
+  text-align: left;
+  margin: 10px auto;
+}
+input,textarea{
+  border-radius:2rem 0 2rem 0;
+  padding-left: 10%;
+}
+
+#personal input {
+  margin: 0.5rem 1rem;
+  width: 70%;
+  border: 1px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: dashed;
+  background-color: #fff1e6;
+}
+
+.labelpersonal {
+  margin: 0.5rem 1rem;
+}
+
+#personal {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+#educational {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+#pattern{
+  grid-column-start: span 4;
+  margin: 0.5rem 2rem 0.5rem 1.5rem;
+}
+
+#educational .inp1 {
+  margin: 1rem 1.5rem;
+  width: 70%;
+  padding-left: 10%;
+  border: 1px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #fff1e6;
+}
+#educational .inp2 {
+  margin: 1rem 1.5rem;
+  width: 70%;
+  border: 1px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: dashed;
+  background-color: #fff1e6;
+}
+
+.inp2::-webkit-outer-spin-button,
+.inp2::-webkit-inner-spin-button{
+  appearance: none;
+}
+#educational:first-child {
+  margin-top: 3rem;
+}
+
+input:focus {
+  outline: none;
+}
+#submit {
+  width: 60%;
+  margin: 10px 13rem;
+  padding: 10px;
+  border-top:1px groove #6d6875;
+  border-radius: 1rem 0;
+  background-color: #fff1e6;
+  color: #6d6875;
+  font-size: large;
+  font-weight: bold;
+}
+#submit:hover{
+    background-color: #fff;
+    color:#6d6875;
+    
+}
+#submit:focus {
+  outline: none;
+}
+#foot{
+  padding: 1rem;
+  padding-bottom: 2rem;
+}

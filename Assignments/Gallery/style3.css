@@ -1,0 +1,117 @@
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 180%;
+    z-index: -1;
+    opacity: 0.5;
+    margin-left: -7px;
+    margin-top: -2.8rem;
+    flex-grow: 5px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    background-color: #e9ecef;
+    margin-top: 3%;
+}
+
+li {
+    list-style: none;
+    font-size: larger;
+    justify-content: flex-end;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.nav:hover {
+    color: #219ebc;
+    background-color: white;
+}
+
+ul>li {
+    padding: 10px 15px;
+}
+
+h1 {
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    margin: auto;
+    justify-content: center;
+}
+
+div img {
+    margin: 4rem 2rem 4rem 2rem;
+    width: 70%;
+    height: 90%;
+    padding: 1px;
+    transition: transform 4s;
+}
+
+div img:hover {
+    transform: skew(5deg, 5deg);
+    border: #e9ecef solid 5px;
+    border-radius: 10%;
+    border-top: none;
+    border-bottom: none;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    margin-bottom: 0.5rem;
+}
+
+#brand {
+    position: absolute;
+    top: 40px;
+    left: 4rem;
+    font-family: 'Pacifico', cursive;
+    animation-name: anim1;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+    0% {
+        left: 4rem;
+        top: 2.5rem;
+    }
+    25% {
+        left: 8rem;
+        top: 2.5rem;
+    }
+    50% {
+        left: 12rem;
+        top: 2.5rem;
+    }
+    75% {
+        left: 8rem;
+        top: 2.5rem;
+    }
+    100% {
+        left: 4rem;
+        top: 2.5rem;
+    }
+}
+
+#home {
+    margin-left: 25rem;
+    flex-shrink: 5px;
+}
+
+.icon {
+    padding: 5px 1rem;
+}

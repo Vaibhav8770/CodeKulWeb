@@ -1,0 +1,64 @@
+body{
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+    text-align : center;
+}
+img{
+    width: 15%;
+    height: 15%;
+}
+p{
+    text-align: center;
+}
+fieldset #mainfield{
+    margin-left: 30%;
+    background-image: url("997658.jpg");
+}
+fieldset{
+    width: 25%;
+    text-align: left;
+    color: black;
+}
+fieldset legend{
+    font-size: medium;
+    width: 50%;
+    margin:auto;
+}
+div{
+    padding: 20px;
+    line-height: 2.5;
+    margin-top: -15%;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color:#4d989b;
+    background-color: #fff;
+    border-radius: 15%;
+}
+button:hover{
+    color:#fff;
+    background-color: #4d989b;
+}
+#Signup{
+    margin-left: 1px;
+}
+a{
+    margin-left: 4%;
+    color: #4d989b
+}
+a:hover{
+    color: crimson;
+}
+#legend{
+    color: #4d989b;
+}
+input, textarea {
+    background-color: #d1d1d1;
+    border-color: rgb(179, 204, 206) ;
+    box-shadow: 8px 8px 4px grey ;
+}

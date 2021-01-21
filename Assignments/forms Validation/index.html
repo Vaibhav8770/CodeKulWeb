@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+
+        <fieldset id="mainfield">
+
+            <h3 id="legend"> Choose your Account Type: </h3>
+
+            <div>
+                <label for="type"></label><br>
+                <input type="radio" id="type" name="erp">Teacher
+                <input type="radio" id="type" name="erp">Student<br>
+
+                <fieldset>
+                    <legend>Email/Mobile Number</legend>
+                    <input type="text" id="id" size="50%" required style="color: #4d989b;"><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Password</legend>
+                    <input type="password" id="pass" size="50%" required style="color: #4d989b"><br>
+                </fieldset>
+                <aside><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTh-bLPWFqBU5GRT1Tr3QoNVxb16-mAPE06w&usqp=CAU" alt=""></aside>
+                <input type="checkbox" id="remember">
+                <label for="remember"><span style="font-size: small; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic;">Remember me next time</span></label>
+                <a href="" id="fpass">Forgot Password ?</a><br>
+
+                <button><i class="fas fa-sign-in-alt"></i>   Sign In</button><br>
+                <span>Create an Account? </span>
+                <a href="signup.html" id="Signup"><i class="fas fa-user-plus"></i> Sign Up</a>
+
+            </div>
+        </fieldset>
+    </div>
+</body>
+
+</html>

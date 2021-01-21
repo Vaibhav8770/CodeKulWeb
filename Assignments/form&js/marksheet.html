@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <img id="img1" src="marksheetbg1.jpg" alt="">
+    <form>
+        <legend>
+            <h3 id="h3p">Personal Details:</h3>
+        </legend>
+        <fieldset id="personal">
+            <label for="sname" class="labelpersonal">Surname</label>
+            <input type="text" id="sname" placeholder="Surname" autocomplete="off" required >
+
+
+            <label for="name" class="labelpersonal">Name:</label>
+            <input type="text" id="name" placeholder="Name" autocomplete="off" required >
+
+
+            <label for="fname" class="labelpersonal">Middle Name:</label>
+            <input type="text" id="fname" placeholder="Father's Name" autocomplete="off" required >
+
+            <label for="prn" class="labelpersonal">PRN Number</label>
+            <input type="text" id="prn" placeholder="12345678A" autocomplete="off" required>
+            
+            <label id="pattern">B.E.(2015 Pattern)&nbsp;&nbsp;&nbsp;Examination:April/May(2020)&nbsp;&nbsp;&nbsp;Electronics and TeleCommunication
+            </label>
+
+        </fieldset>
+
+        <legend><h3 id="h3e">Progress and Result</h3></legend>
+        <br>
+        <fieldset>
+            <div id="educational">
+                <label for="vlsi" class="labeledu">404181 <span>VLSI Design</span></label>
+                <input type="number" class="inp2" id="vlsi" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="cns" class="labeledu">404182 <span>Computer Networks & Security</span></label>
+                <input type="number" class="inp2" id="cns" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="rmt" class="labeledu">404183 <span>Radiation & Microwave Techni.</span></label>
+                <input type="number" class="inp2" id="rmt" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="dip" class="labeledu">404184A <span>Digital Image Processing</span></label>
+                <input type="number" class="inp2" id="dip" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="epd" class="labeledu">404185D <span>Electronic Product Design</span></label>
+                <input type="number" class="inp2" id="epd" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="mobile" class="labeledu">404189 <span>Mobile Communication</span></label>
+                <input type="number" class="inp2" id="mobile" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="bcs" class="labeledu">404190 <span>Broadband Communication Systems</span></label>
+                <input type="number" class="inp2" id="bcs" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="wsn" class="labeledu">404191C <span>Wireless Sensor Networks</span></label>
+                <input type="number" class="inp2" id="wsn" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="plc" class="labeledu">404192B <span>PLC's and Automtion</span></label>
+                <input type="number" class="inp2" id="plc" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+                <label for="project" class="labeledu">404195 <span>Project</span></label>
+                <input type="number" class="inp2" id="project" autocomplete="off" required>
+                <input type="number" class="inp1" value="100" readonly>
+
+            </div>
+            <input type="button" id="submit" onclick="checkfun()" value="Submit">
+
+        </fieldset>
+        <fieldset id="foot">
+
+            Total Count: <label id="total"></label><br>
+            Percentage: <label id="per"></label><br>
+            CGPA: <label id="cgpa"></label><br>
+            <label id="cobtained"></label>
+
+        </fieldset>
+    </form>
+
+   
+</body>
+
+</html>

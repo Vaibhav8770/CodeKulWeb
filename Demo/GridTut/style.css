@@ -1,0 +1,17 @@
+body {
+    background-color: #eddcd2;
+}
+
+imgt {
+    height: 400px;
+    width: 400px;
+    margin: 5px 10px 5px 10px;
+}
+
+#container {
+    display: grid;
+}
+
+#first {
+    grid-template-columns: 300px;
+}

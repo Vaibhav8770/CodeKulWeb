@@ -1,0 +1,154 @@
+    body {
+        background-image: linear-gradient(to top, #fcd5ce, #4895ef, #fcd5ce);
+    }
+    
+    .nav1,
+    header {
+        list-style: none;
+        background-color: black;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    header {
+        margin: -16px -8px 0 -8px;
+    }
+    
+    li {
+        padding: 1%;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h1 {
+        margin-left: 6%;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .nav1>li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        padding: 1%;
+        display: inline-block;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    li:hover {
+        background-color: #8d99ae;
+        border-radius: 20% 0;
+    }
+    
+    .right {
+        margin-left: 67%;
+    }
+    
+    .nav2>ul {
+        background-color: #fcd5ced5;
+    }
+    
+    .nav2>li {
+        color: black;
+    }
+    
+    .newsnav li {
+        display: block;
+        margin-right: 96%;
+        margin-left: -4%;
+        background-color: black;
+        color: #fff;
+        padding: 20px 8px;
+        text-align: center;
+    }
+    
+    .newsnav>li:hover {
+        background-color: #8d99ae;
+        border-radius: 35% 0;
+    }
+    
+    article>img {
+        width: 100%;
+    }
+    
+    article>h1 {
+        margin: 12px 0;
+    }
+    
+    article>h2 {
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    article>p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        word-wrap: break-word;
+    }
+    
+    article {
+        position: absolute;
+        width: 60%;
+        margin-left: 11%;
+        margin-top: -37%;
+        line-height: 1.5;
+        word-wrap: normal;
+    }
+    
+    mark {
+        background-color: rgb(180, 107, 248);
+    }
+    
+    mark:hover {
+        background-color: chocolate;
+    }
+    
+    aside {
+        margin-left: 73%;
+        margin-top: -32%;
+        position: absolute;
+        text-align: center;
+        width: 22%;
+    }
+    
+    #gow {
+        /* margin-top: -32%; */
+        float: left;
+    }
+    
+    #cod {
+        float: left;
+        margin-top: 10%;
+    }
+    
+    #dmc {
+        float: left;
+        margin-top: 10%;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    a>img {
+        width: 130PX;
+        height: 130PX;
+        margin-left: 5px;
+        margin-right: 12px;
+        float: left;
+        text-align: left;
+    }
+    
+    footer {
+        padding: 10%;
+        padding-left: 0;
+        margin-left: -5px;
+        position: absolute;
+        margin-top: 105%;
+        text-align: center;
+        width: 90%;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: black;
+        color: #fff;
+    }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+    <form>
+        <legend>
+            <h2>Personal Details:</h2>
+        </legend>
+        <!-- <fieldset id="personal">
+        <label for="sname" class="labelpersonal">Surname</label>
+        <input type="text" id="sname" placeholder="Surname" required>
+
+
+        <label for="name" class="labelpersonal">Name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+
+
+        <label for="fname" class="labelpersonal">Middle Name:</label>
+        <input type="text" id="fname" placeholder="Father's Name" required>
+
+        <label for="prn" class="labelpersonal">PRN Number</label>
+        <input type="text" id="prn">
+
+    </fieldset> -->
+
+        <legend></legend>
+        <br>
+        <fieldset>
+
+            <div id="educational">
+                <label for="vlsi">404181 VLSI Design</label>
+                <input type="text" id="vlsi">
+
+                <label for="cns">404182 Computer Networks & Security</label>
+                <input type="text" id="cns">
+
+                <label for="rmt">404183 Radiation & Microwave Techni.</label>
+                <input type="text" id="rmt">
+
+                <label for="dip">404184A Digital Image Processing</label>
+                <input type="text" id="dip">
+
+                <label for="epd">404185D Electronic Product Design</label>
+                <input type="text" id="epd">
+
+                <label for="mobile">404189 Mobile Communication</label>
+                <input type="text" id="mobile">
+
+                <label for="bcs">404190 Broadband Communication Systems</label>
+                <input type="text" id="bcs">
+
+                <label for="wsn">404191C Wireless Sensor Networks</label>
+                <input type="text" name="wsn" id="wsn">
+
+                <label for="plc">404192B PLC's and Automtion</label>
+                <input type="text"name="plc" id="plc">
+
+                <label for="project">404195 Project</label>
+                <input type="text" name="project" id="project">
+
+                <input type="button" onclick="checkfun()" value="Submit">
+
+                Total Count: <label id="total"></label>
+                <br>
+                Percentage: <label id="per"></label>
+            </div>
+        </fieldset>
+    </form>
+
+    <script>
+        function checkfun() {
+            var s1 = document.getElementById("vlsi").value;
+            var s2 = document.getElementById("cns").value;
+            var s3 = document.getElementById("rmt").value;
+            var s4 = document.getElementById("epd").value;
+            var s5 = document.getElementById("dip").value;
+            var s6 = document.getElementById("mobile").value;
+            var s7 = document.getElementById("bcs").value;
+            var s8 = document.getElementById("wsn").value;
+            var s9 = document.getElementById("plc").value;
+            var s10 = document.getElementById("project").value;
+            var totalm = document.getElementById("total");
+            var percentage = document.getElementById("per");
+            var obtained = parseInt(s1) + parseInt(s2) + parseInt(s3)+parseInt(s4) + parseInt(s5)+ parseInt(s6) + parseInt(s7) +parseInt(s8) + parseInt(s9) + parseInt(s10);
+
+
+            totalm.innerHTML =obtained;
+            per.innerHTML =(obtained / 10);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: rgb(136, 255, 175);
+}
+
+img {
+    position: absolute;
+    opacity: 70%;
+    width: 110%;
+    margin-left: -45%;
+    margin-top: -30%;
+    z-index: -1;
+}
+
+p {
+    text-align: center;
+}
+
+#mainfield {
+    margin-left: 39%;
+    margin-top: 5%;
+}
+
+fieldset {
+    width: 25%;
+    text-align: left;
+    color: black;
+    border-radius: 0 25px 0 25px;
+}
+
+fieldset legend {
+    font-size: medium;
+    width: 50%;
+    margin: auto;
+}
+
+fieldset>div {
+    padding: 20px;
+    line-height: 2.5;
+    margin-top: -15%;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: #364cad;
+    background-color: #fff;
+    border-radius: 15%;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #364cad;
+}
+
+#Signup {
+    margin-left: 1px;
+}
+
+a {
+    margin-left: 4%;
+    color: #364cad;
+}
+
+a:hover {
+    color: rgb(207, 58, 32);
+}
+
+#legend {
+    color: #364cad;
+}
+
+fieldset>input,
+textarea {
+    background-color: #d1d1d1;
+    border-color: rgb(179, 204, 206);
+    box-shadow: 7px 8px 15px 8px grey;
+    border-radius: 0 25px 0 25px;
+}
