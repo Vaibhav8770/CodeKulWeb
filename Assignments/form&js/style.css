@@ -93,13 +93,13 @@ input,textarea{
 .inp2::-webkit-inner-spin-button{
   appearance: none;
 }
+input:focus {
+  outline: none;
+}
 #educational:first-child {
   margin-top: 3rem;
 }
 
-input:focus {
-  outline: none;
-}
 #submit {
   width: 60%;
   margin: 10px 13rem;
